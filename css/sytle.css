@@ -1,0 +1,108 @@
+
+ body {
+         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.428571429;
+        color: #333333;
+        background-color:snow;
+}
+     .jumbotron {
+            margin-bottom: 0px;
+            background-color: snow;
+            background-position: 0% 25%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-shadow:snow 0.3em 0.3em 0.3em;
+}
+      .container{
+          width:100%;
+          padding-right:5px;
+          padding-left:5px;
+          margin-right:auto;
+          margin-left:auto
+}
+    
+
+div.img:hover {
+    border: 5px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+          body{
+            background-color: snow;
+        }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:floralwhite;
+}
+li {
+    float: none;
+    align-items: center;
+  
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:lavenderblush;
+}
+
+.active {
+    background-color:lightgreen;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  text-align: center;
+  background-color:#fff;
+    /*opacity: 0.7;*/
+    /*line-height: 50px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}          
